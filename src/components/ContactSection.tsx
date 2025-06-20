@@ -16,36 +16,47 @@ const ContactSection = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 animate-fade-in delay-300">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 animate-fade-in delay-300">
             <a 
-              href="mailto:harshalrohraa@gmail.com"
+              href="mailto:harshalrohra4@gmail.com"
               className="group bg-black text-white rounded-xl p-6 hover:bg-gray-800 transition-colors duration-300 hover:scale-105 transform transition-transform"
             >
               <div className="text-4xl mb-4 group-hover:animate-bounce">📧</div>
               <h3 className="text-xl font-bold mb-2">Email Me</h3>
-              <p className="text-gray-300">harshalrohraa@gmail.com</p>
+              <p className="text-gray-300">harshalrohra4@gmail.com</p>
             </a>
             
             <a 
-              href="https://github.com/harshalrohraa"
+              href="https://github.com/harshallrohra"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-black text-white rounded-xl p-6 hover:bg-gray-800 transition-colors duration-300 hover:scale-105 transform transition-transform"
             >
               <div className="text-4xl mb-4 group-hover:animate-bounce">🐙</div>
               <h3 className="text-xl font-bold mb-2">GitHub</h3>
-              <p className="text-gray-300">@harshalrohraa</p>
+              <p className="text-gray-300">@harshallrohra</p>
             </a>
             
             <a 
-              href="https://linkedin.com/in/harshalrohraa"
+              href="https://www.linkedin.com/in/harshal-rohra-8334aa289"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-black text-white rounded-xl p-6 hover:bg-gray-800 transition-colors duration-300 hover:scale-105 transform transition-transform"
             >
               <div className="text-4xl mb-4 group-hover:animate-bounce">💼</div>
               <h3 className="text-xl font-bold mb-2">LinkedIn</h3>
-              <p className="text-gray-300">@harshalrohraa</p>
+              <p className="text-gray-300">@harshal-rohra</p>
+            </a>
+            
+            <a 
+              href="https://instagram.com/harshallrohra"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-black text-white rounded-xl p-6 hover:bg-gray-800 transition-colors duration-300 hover:scale-105 transform transition-transform"
+            >
+              <div className="text-4xl mb-4 group-hover:animate-bounce">📸</div>
+              <h3 className="text-xl font-bold mb-2">Instagram</h3>
+              <p className="text-gray-300">@harshallrohra</p>
             </a>
           </div>
           
