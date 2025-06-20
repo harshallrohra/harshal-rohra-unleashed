@@ -31,7 +31,7 @@ const SkillsSection = () => {
             return (
               <div
                 key={index}
-                className="absolute bg-white rounded-full p-4 shadow-lg hover:scale-110 transition-transform duration-300 animate-orbit group cursor-pointer"
+                className="absolute bg-white rounded-full p-4 shadow-lg hover:scale-110 transition-transform duration-300 animate-orbit-slow group cursor-pointer"
                 style={{
                   left: `calc(50% + ${x}px - 2rem)`,
                   top: `calc(50% + ${y}px - 2rem)`,

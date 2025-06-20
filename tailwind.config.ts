@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -121,6 +120,14 @@ export default {
 					'100%': {
 						transform: 'rotate(360deg) translateX(150px) rotate(-360deg)'
 					}
+				},
+				'orbit-slow': {
+					'0%': {
+						transform: 'rotate(0deg) translateX(150px) rotate(0deg)'
+					},
+					'100%': {
+						transform: 'rotate(360deg) translateX(150px) rotate(-360deg)'
+					}
 				}
 			},
 			animation: {
@@ -129,7 +136,8 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out forwards',
 				'scale-in': 'scale-in 0.6s ease-out forwards',
 				'float': 'float 6s ease-in-out infinite',
-				'orbit': 'orbit 20s linear infinite'
+				'orbit': 'orbit 20s linear infinite',
+				'orbit-slow': 'orbit-slow 60s linear infinite'
 			}
 		}
 	},

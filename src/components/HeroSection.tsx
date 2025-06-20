@@ -42,7 +42,7 @@ const HeroSection = () => {
             <img 
               src="/lovable-uploads/cfeb5ce3-1fe7-4bdf-bf1c-df5022be370b.png"
               alt="Harshal Rohra"
-              className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full border-8 border-white shadow-2xl hover:scale-105 transition-transform duration-300"
+              className="relative w-80 h-80 md:w-96 md:h-96 object-cover object-center rounded-full border-8 border-white shadow-2xl hover:scale-105 transition-transform duration-300 scale-110"
             />
           </div>
         </div>
