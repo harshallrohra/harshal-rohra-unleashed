@@ -33,6 +33,12 @@ const ProjectsSection = () => {
       description: "Full-stack booking tool with CRUD operations for seamless flight reservations.",
       tech: ["Java", "MySQL", "CRUD Operations"],
       color: "bg-orange-500"
+    },
+    {
+      title: "EEG-based Parkinson's Disease Detection",
+      description: "Built a deep learning model using Attention-DenseNet for EEG signal classification. Optimized hyperparameters with ITDO algorithm, achieving high accuracy for early Parkinson's detection.",
+      tech: ["Python", "TensorFlow", "Keras", "Scikit-learn"],
+      color: "bg-cyan-500"
     }
   ];
 
