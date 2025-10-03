@@ -12,7 +12,7 @@ const AboutSection = () => {
           
           <div className="text-xl md:text-2xl leading-relaxed space-y-6 animate-fade-in delay-300">
             <p>
-              I'm Harshal — a 2nd-year CSE student at SRM University who's basically in a 
+              I'm Harshal — a CSE student at SRM University who's basically in a 
               committed relationship with code and curiosity 🤓
             </p>
             
